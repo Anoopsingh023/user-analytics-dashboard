@@ -5,6 +5,9 @@ import App from './App.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 import Users from './pages/Users.jsx'
 import './index.css'
+import { inject } from '@vercel/analytics';
+ 
+inject();
 
 const router = createBrowserRouter([
   {
